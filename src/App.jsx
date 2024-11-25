@@ -1,4 +1,4 @@
-import { Appbar } from "./components/AppBar";
+import { Navbar } from "./components/Navbar";
 import eyePattern from "../public/eyePattern.svg";
 import puzzlePattern from "../public/puzzlePattern.svg";
 import blob from "../public/blob.svg"

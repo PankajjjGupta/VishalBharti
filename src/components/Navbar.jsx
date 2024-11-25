@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export function Appbar() {
+export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
