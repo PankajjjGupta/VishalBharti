@@ -1,13 +1,13 @@
 import { Navbar } from "./components/Navbar";
-import eyePattern from "../public/eyePattern.svg";
-import puzzlePattern from "../public/puzzlePattern.svg";
-import blob from "../public/blob.svg"
+import eyePattern from "../public/static/images/eyePattern.svg";
+import puzzlePattern from "../public/static/images/puzzlePattern.svg";
+import blob from "../public/static/images/blob.svg"
 import { Caraosel } from "./components/Caraosel";
-import slide1  from "../public/slide-1.webp"
-import slide2  from "../public/slide-2.webp"
-import slide3  from "../public/slide-3.webp"
-import slide4  from "../public/slide-4.webp"
-import slide5  from "../public/slide-5.webp"
+import slide1  from "../public/static/images/slide-1.webp"
+import slide2  from "../public/static/images/slide-2.webp"
+import slide3  from "../public/static/images/slide-3.webp"
+import slide4  from "../public/static/images/slide-4.webp"
+import slide5  from "../public/static/images/slide-5.webp"
 
 export default function App() {
   return (
