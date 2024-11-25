@@ -2,7 +2,7 @@ import { Navbar } from "./components/Navbar";
 import eyePattern from "../public/eyePattern.svg";
 import puzzlePattern from "../public/puzzlePattern.svg";
 import blob from "../public/blob.svg"
-import { Slider } from "./components/slider";
+import { Caraosel } from "./components/Caraosel";
 import slide1  from "../public/slide-1.webp"
 import slide2  from "../public/slide-2.webp"
 import slide3  from "../public/slide-3.webp"
@@ -12,7 +12,7 @@ import slide5  from "../public/slide-5.webp"
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Appbar />
+      <Navbar />
       <main className="">
         {/* Top Header */}
         <div 
@@ -77,7 +77,7 @@ export default function App() {
         <div className="w-full px-4 py-12 md:py-16">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-semibold mb-8">Our Gallery</h2>
-            <Slider sliderImages={[slide1, slide2, slide3, slide4, slide5]} />
+            <Caraosel sliderImages={[slide1, slide2, slide3, slide4, slide5]} />
           </div>
         </div>
       </main>
